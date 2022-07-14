@@ -1,0 +1,10 @@
+step1: flex a.l ---> lex file
+step2: bison -dy a.y   ---> yaac file
+step3: gcc lex.yy.c y.tab.c  ---> c compiler
+step4: a --->run
+enter String: aa+
+accepted
+
+step4: a---> run
+enter string: aaa
+error
